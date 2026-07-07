@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sharvari Kadam | Portfolio</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      background: #f5f5f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .card {
+      max-width: 420px;
+      width: 100%;
+      background: white;
+      border-radius: 32px;
+      padding: 32px 24px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+    }
+
+    /* ---------- PROFILE HEADER ---------- */
+    .profile {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 14px;
+      font-size: 40px;
+      font-weight: 600;
+      color: white;
+      letter-spacing: 1px;
+      box-shadow: 0 8px 24px rgba(108, 92, 231, 0.25);
+    }
+
+    .profile h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1a1a2e;
+      letter-spacing: -0.5px;
+    }
+
+    .profile .role {
+      font-size: 18px;
+      font-weight: 400;
+      color: #6c5ce7;
+      margin-top: 4px;
+      letter-spacing: 1px;
+    }
+
+    /* ---------- CONTACT ROW ---------- */
+    .contact-row {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin: 16px 0 28px;
+      flex-wrap: wrap;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      color: #2d3436;
+    }
+
+    .contact-item i {
+      color: #6c5ce7;
+      width: 18px;
+      font-size: 16px;
+    }
+
+    /* ---------- SECTIONS ---------- */
+    .section {
+      margin-bottom: 28px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 14px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #f0f0f5;
+    }
+
+    .section-title i {
+      color: #6c5ce7;
+      font-size: 18px;
+      width: 24px;
+    }
+
+    .section-content {
+      padding-left: 6px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #2d3436;
+    }
+
+    .section-content p {
+      margin-bottom: 8px;
+    }
+
+    .edu-detail {
+      font-weight: 500;
+    }
+
+    .edu-date {
+      font-weight: 400;
+      color: #636e72;
+      font-size: 14px;
+      margin-left: 6px;
+    }
+
+    /* ---------- SKILLS / STRENGTHS / LANGUAGES (tags) ---------- */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      list-style: none;
+      padding: 0;
+      margin-top: 6px;
+    }
+
+    .tags li {
+      background: #f0edff;
+      color: #4a3f8a;
+      font-size: 13px;
+      padding: 5px 14px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+
+    /* ---------- DECLARATION ---------- */
+    .declaration {
+      font-style: italic;
+      font-size: 14px;
+      color: #636e72;
+      border-top: 1px solid #e8e8ee;
+      padding-top: 18px;
+      margin-top: 6px;
+      text-align: center;
+    }
+
+    .declaration i {
+      color: #6c5ce7;
+      margin-right: 5px;
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 480px) {
+      .card {
+        padding: 24px 18px;
+      }
+      .profile h1 {
+        font-size: 24px;
+      }
+      .contact-row {
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <!-- PROFILE HEADER -->
+    <div class="profile">
+      <div class="avatar">SK</div>
+      <h1>Sharvari Kadam</h1>
+      <div class="role">Graphic Designer</div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-row">
+      <span class="contact-item"><i class="fas fa-phone-alt"></i>9325524941</span>
+      <span class="contact-item"><i class="fas fa-envelope"></i>kadamsharvari95@gmail.com</span>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="section">
+      <div class="section-title">
+        <i class="fas fa-graduation-cap"></i> Education
+      </div>
+      <div class="section-content">
+        <p class="edu-detail">
+          Diploma in Electronics &amp; Telecommunication <span class="edu-date">· 2nd Year</span>
+        </p>
+        <p>BIATU University · Present 2025</p>
+      </div>
+    </div>
+
+    <!-- WORK EXPERIENCE -->
+    <div class="section">
+      <div class="section-title">
+        <i class="fas fa-briefcase"></i> Work Experience
+      </div>
+      <div class="section-content">
+        <p><strong>Freelance / Practical Design Experience</strong></p>
+        <p>Designed logos, business cards, and marketing materials for clients.</p>
+        <p>Developed social media graphics, digital advertisements, and branding assets.</p>
+        <p>Collaborated with clients to deliver visually cohesive and impactful design solutions.</p>
+      </div>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="section">
+      <div class="section-title">
+        <i class="fas fa-user"></i> Summary
+      </div>
+      <div class="section-content">
+        <p>Creative and detail-oriented Graphic Designer with a strong foundation in visual storytelling and design principles. Skilled in Adobe Creative Suite (Photoshop, Illustrator, InDesign) to create compelling branding, print, and digital content. Adept at translating client needs into aesthetically pleasing, functional designs while maintaining brand consistency.</p>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="section">
+      <div class="section-title">
+        <i class="fas fa-paint-brush"></i> Skills
+      </div>
+      <ul class="tags">
+        <li>Adobe Photoshop</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe InDesign</li>
+        <li>Logo &amp; Brand Identity</li>
+        <li>Typography &amp; Layout</li>
+        <li>Color Theory</li>
+        <li>Social Media Graphics</li>
+        <li>Print Design</li>
+        <li>UI/UX Basics</li>
+        <li>Creative Problem-Solving</li>
+      </ul>
+    </div>
+
+    <!-- STRENGTHS -->
+    <div class="section">
+      <div class="section-title">
+        <i class="fas fa-star"></i> Strengths
+      </div>
+      <ul class="tags">
+        <li>Creative mindset</li>
+        <li>Strong visual understanding</li>
+        <li>Quick learner</li>
+        <li>Responsible with deadlines</li>
+      </ul>
+    </div>
+
+    <!-- LANGUAGES -->
+    <div class="section">
+      <div class="section-title">
+        <i class="fas fa-globe"></i> Languages
+      </div>
+      <ul class="tags">
+        <li>English</li>
+        <li>Hindi</li>
+        <li>Marathi</li>
+      </ul>
+    </div>
+
+    <!-- DECLARATION -->
+    <div class="declaration">
+      <i class="fas fa-check-circle"></i> I hereby declare that the above information is true to the best of my knowledge and belief.
+    </div>
+
+  </div>
+
+</body>
+</html>
+```
+
